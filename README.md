@@ -1,2 +1,1 @@
-# GitHubWorkings
-It is created by Alpaslan
+In this framework Selenium/Cucumber is used. In feature files there are two branches(feature); one of them is used for login and the second one is used on diffrent pages and orders. All different users should be use dynamic variables which define in dynamic methods. Every page has a different locator repository and pages must be created according to the princeple of POM. Every step must be create in different step definition class. 
