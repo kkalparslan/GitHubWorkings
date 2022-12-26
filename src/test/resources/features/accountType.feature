@@ -18,7 +18,7 @@ Feature: Account Type
   Scenario: fourth user
     Given User should be on the login page
     When User should input "krafttech@kraft.com" and "Test1234"
-    Then The user name should be "Kyle Masters"
+    Then The user name should be "kemal sunal"
 
 
   Scenario Outline: Different <name> user type
