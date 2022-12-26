@@ -1,9 +1,6 @@
 Feature: Account Type
 
-  Scenario: first user
-    Given User should be on the login page
-    When User should input "mike@gmail.com" and "mike1234"
-    Then The user name should be "Harun"
+
 
   Scenario: Second user
     Given User should be on the login page
@@ -14,6 +11,10 @@ Feature: Account Type
     Given User should be on the login page
     When User should input "morganfreeman@kraft.com" and "mfreeman"
     Then The user name should be "Morgan Freeman"
+  Scenario: first user
+    Given User should be on the login page
+    When User should input "mike@gmail.com" and "mike1234"
+    Then The user name should be "Harun"
 
   Scenario Outline: Different <name> user type
     Given User should be on the login page
