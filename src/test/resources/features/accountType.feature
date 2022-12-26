@@ -1,19 +1,32 @@
 Feature: Account Type
 
+ htcm_3
+
+
+
+
+master
   Scenario: Second user
     Given User should be on the login page
     When User should input "eddiem@kraft.com" and "eddiem12"
     Then The user name should be "Eddie Murphy"
+    
+    
 
   Scenario: Mr.HAsan Github
     Given User should be on the login page
     When User should input "morganfreeman@kraft.com" and "mfreeman"
     Then The user name should be "Morgan Freeman"
-
-  Scenario Outline: Different <name> user type
+    
+    
+    
+  Scenario: first user
     Given User should be on the login page
-    When User should input "<userEmail>" and "<password>"
-    Then The user name should be "<name>"
+    When User should input "mike@gmail.com" and "mike1234"
+    Then The user name should be "Harun"
+    
+
+  
 
     Examples:
       | userEmail | password | name |
